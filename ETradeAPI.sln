@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{401545B6-ED77-42E0-9D3E-80BAC3126DAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETradeAPI.Domain", "Core\ETradeAPIDomain\ETradeAPI.Domain.csproj", "{F6C0520E-98E5-47AF-A72F-79F7DD9AA729}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETradeAPI.Application", "Core\ETradeAPI.Application\ETradeAPI.Application.csproj", "{8C987849-AAC9-451B-A0AE-B2EC0ED00712}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{49698E02-B6C4-461A-A9DD-04428BB9DD3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETradeAPI.Infrastructure", "Infrastructure\ETradeAPI.Infrastructure\ETradeAPI.Infrastructure.csproj", "{E47CA1D8-6202-48ED-ADD2-05E1878B5915}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETradeAPI.Persistence", "Infrastructure\ETradeAPI.Persistence\ETradeAPI.Persistence.csproj", "{8C9DDD59-ECC2-4402-841F-ADDCA0985741}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{D852050E-BE9E-4AE5-B6D5-B630B8C48907}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETradeAPI.API", "Presentation\ETradeAPI.API\ETradeAPI.API.csproj", "{7E46DED4-43A7-4FBB-AF94-12406B55331A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6C0520E-98E5-47AF-A72F-79F7DD9AA729}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6C0520E-98E5-47AF-A72F-79F7DD9AA729}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6C0520E-98E5-47AF-A72F-79F7DD9AA729}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6C0520E-98E5-47AF-A72F-79F7DD9AA729}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C987849-AAC9-451B-A0AE-B2EC0ED00712}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C987849-AAC9-451B-A0AE-B2EC0ED00712}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C987849-AAC9-451B-A0AE-B2EC0ED00712}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C987849-AAC9-451B-A0AE-B2EC0ED00712}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E47CA1D8-6202-48ED-ADD2-05E1878B5915}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E47CA1D8-6202-48ED-ADD2-05E1878B5915}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E47CA1D8-6202-48ED-ADD2-05E1878B5915}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E47CA1D8-6202-48ED-ADD2-05E1878B5915}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C9DDD59-ECC2-4402-841F-ADDCA0985741}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C9DDD59-ECC2-4402-841F-ADDCA0985741}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C9DDD59-ECC2-4402-841F-ADDCA0985741}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C9DDD59-ECC2-4402-841F-ADDCA0985741}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E46DED4-43A7-4FBB-AF94-12406B55331A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E46DED4-43A7-4FBB-AF94-12406B55331A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E46DED4-43A7-4FBB-AF94-12406B55331A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E46DED4-43A7-4FBB-AF94-12406B55331A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F6C0520E-98E5-47AF-A72F-79F7DD9AA729} = {401545B6-ED77-42E0-9D3E-80BAC3126DAC}
+		{8C987849-AAC9-451B-A0AE-B2EC0ED00712} = {401545B6-ED77-42E0-9D3E-80BAC3126DAC}
+		{E47CA1D8-6202-48ED-ADD2-05E1878B5915} = {49698E02-B6C4-461A-A9DD-04428BB9DD3B}
+		{8C9DDD59-ECC2-4402-841F-ADDCA0985741} = {49698E02-B6C4-461A-A9DD-04428BB9DD3B}
+		{7E46DED4-43A7-4FBB-AF94-12406B55331A} = {D852050E-BE9E-4AE5-B6D5-B630B8C48907}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EE5CB232-EE1D-4F8A-8BFC-622146317A33}
+	EndGlobalSection
+EndGlobal
