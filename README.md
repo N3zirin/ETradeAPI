@@ -1,0 +1,21 @@
+This project comtains appliance of:
+- ASP .NET CORE 6.0 usage
+- MsSQL
+- Onion(N-Layer) Architecture
+- Repository Pattern
+- CQRS Pattern
+- OOP Principles
+- File Operations
+- SOLID Principles
+- REST API
+- External Login: Facebook and Google accounts
+- Numerous NuGet Packages
+- Custom Middleware adding to Pipeline
+- Service Registration bestpractices
+- Global Exception Handling
+- www.root Configuration
+- Logging(Serilog)
+- Validations and Filters
+- JWT(Jason Web Token) based Authentication
+- Identity Roles based Autherization
+- Usage of LINQ and Extencion Functions
